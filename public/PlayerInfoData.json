@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "playerName": "Shakib Al Hasan",
+    "playerCountry": "Bangladesh",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "All-rounder",
+    "rating": 4.8,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Slow left-arm orthodox",
+    "price": 1500000
+  },
+  {
+    "id": 2,
+    "playerName": "Virat Kohli",
+    "playerCountry": "India",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Batsman",
+    "rating": 4.9,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": 2000000
+  },
+  {
+    "id": 3,
+    "playerName": "Babar Azam",
+    "playerCountry": "Pakistan",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Batsman",
+    "rating": 4.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1800000
+  },
+  {
+    "id": 4,
+    "playerName": "Ben Stokes",
+    "playerCountry": "England",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "All-rounder",
+    "rating": 4.6,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": 1700000
+  },
+  {
+    "id": 5,
+    "playerName": "Pat Cummins",
+    "playerCountry": "Australia",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Bowler",
+    "rating": 4.8,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": 1900000
+  },
+  {
+    "id": 6,
+    "playerName": "Rashid Khan",
+    "playerCountry": "Afghanistan",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Bowler",
+    "rating": 4.9,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Leg-break googly",
+    "price": 1600000
+  },
+  {
+    "id": 7,
+    "playerName": "Kane Williamson",
+    "playerCountry": "New Zealand",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Batsman",
+    "rating": 4.7,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm offbreak",
+    "price": 1550000
+  },
+  {
+    "id": 8,
+    "playerName": "Quinton de Kock",
+    "playerCountry": "South Africa",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Wicketkeeper Batsman",
+    "rating": 4.5,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "N/A",
+    "price": 1400000
+  },
+  {
+    "id": 9,
+    "playerName": "Wanindu Hasaranga",
+    "playerCountry": "Sri Lanka",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "All-rounder",
+    "rating": 4.4,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Leg break",
+    "price": 1200000
+  },
+  {
+    "id": 10,
+    "playerName": "Mustafizur Rahman",
+    "playerCountry": "Bangladesh",
+    "playerImage": "https://i.ibb.co.com/1fH4rtyN/sakib.jpg",
+    "playerType": "Bowler",
+    "rating": 4.6,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": 1300000
+  }
+]

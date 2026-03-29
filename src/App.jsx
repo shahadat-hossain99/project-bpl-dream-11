@@ -1,19 +1,29 @@
+import { Suspense } from "react";
 import "./App.css";
+import Navbar from "./Components/NavBar/Navbar";
+import Players from "./Components/Players/Players";
+
+const fetchPlayers = async () => {
+  const res = await fetch("/PlayerInfoData.json");
+  return res.json();
+};
 
 function App() {
+  const playersPromise = fetchPlayers();
   return (
     <>
-      <h1 className="text-9xl">Hello World of React</h1>
-      <div>
-        <button className="btn btn-neutral">Neutral</button>
-        <button className="btn btn-primary">Primary</button>
-        <button className="btn btn-secondary">Secondary</button>
-        <button className="btn btn-accent">Accent</button>
-        <button className="btn btn-info">Info</button>
-        <button className="btn btn-success">Success</button>
-        <button className="btn btn-warning">Warning</button>
-        <button className="btn btn-error">Error</button>
-      </div>
+      <header>
+        <Navbar></Navbar>
+      </header>
+      <main>
+        <Suspense
+          fallback={
+            <span className="$$loading $$loading-bars $$loading-xl"></span>
+          }
+        >
+          <Players playersPromise={playersPromise} />
+        </Suspense>
+      </main>
     </>
   );
 }
