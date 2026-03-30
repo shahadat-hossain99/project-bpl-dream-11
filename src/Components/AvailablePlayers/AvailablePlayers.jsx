@@ -2,7 +2,13 @@ import React from "react";
 
 import PlayerCard from "./PlayerCard";
 
-const AvailablePlayers = ({ playersData, setCoin, coin }) => {
+const AvailablePlayers = ({
+  playersData,
+  setCoin,
+  coin,
+  setSelectedPlayer,
+  SelectedPlayer,
+}) => {
   //   console.log(playersData);
   return (
     <div className="container mx-auto w-11/12 ">
@@ -10,6 +16,8 @@ const AvailablePlayers = ({ playersData, setCoin, coin }) => {
         {playersData.map((players) => (
           <PlayerCard
             setCoin={setCoin}
+            SelectedPlayer={SelectedPlayer}
+            setSelectedPlayer={setSelectedPlayer}
             coin={coin}
             key={players.id}
             players={players}

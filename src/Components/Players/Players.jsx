@@ -11,7 +11,10 @@ const Players = ({ playersPromise, setCoin, coin }) => {
 
   const [SelectedType, setSelectedType] = useState("available");
 
-  console.log(SelectedType, "SelectedType");
+  // console.log(SelectedType, "SelectedType");
+
+  const [SelectedPlayer, setSelectedPlayer] = useState([]);
+
   return (
     <div className="container mx-auto w-11/12 my-16">
       <div className="flex justify-between gap-4 items-center mb-5">
@@ -43,11 +46,13 @@ const Players = ({ playersPromise, setCoin, coin }) => {
       {SelectedType === "available" ? (
         <AvailablePlayers
           playersData={playersData}
+          SelectedPlayer={SelectedPlayer}
+          setSelectedPlayer={setSelectedPlayer}
           setCoin={setCoin}
           coin={coin}
         />
       ) : (
-        <SelectedPlayers />
+        <SelectedPlayers SelectedPlayer={SelectedPlayer}></SelectedPlayers>
       )}
     </div>
   );
