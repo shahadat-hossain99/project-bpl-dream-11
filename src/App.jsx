@@ -2,6 +2,7 @@ import { Suspense, useState } from "react";
 import "./App.css";
 import Navbar from "./Components/NavBar/Navbar";
 import Players from "./Components/Players/Players";
+import { ToastContainer } from "react-toastify";
 
 const fetchPlayers = async () => {
   const res = await fetch("/PlayerInfoData.json");
@@ -29,6 +30,10 @@ function App() {
             playersPromise={playersPromise}
           />
         </Suspense>
+
+        {/* React Toastify */}
+
+        <ToastContainer />
       </main>
     </>
   );
